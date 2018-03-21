@@ -1,0 +1,107 @@
+.Containt {
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed; }
+
+body {
+  margin: 0; }
+
+/*ACHTERGROND*/
+.BG {
+  background-image: url("art-graffiti-abstract-vintage.jpg");
+  width: 100%;
+  height: 100%; }
+
+/*STYLE NAV BAR*/
+nav {
+  margin: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #0009;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+nav ul {
+  margin: 0 auto;
+  width: 50%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Hammersmith One', sans-serif;
+  list-style: none; }
+
+li a:hover {
+  color: white;
+  list-style-type: none;
+  transition: 0.8s all; }
+
+nav ul li a {
+  text-decoration: none;
+  color: white; }
+
+/*LOGO */
+.h1tag {
+  height: 100%;
+  display: flex; }
+
+h1 {
+  color: #d2a46a;
+  padding-left: 2%;
+  position: absolute; }
+
+/*HOME LOGO INFO*/
+.Block {
+  /*background-image:url("aflogo.png");*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+  /*margin: 10% 0 0 40%;*/ }
+
+.Block img {
+  width: 244px;
+  height: 315px; }
+
+/*MAIN ARTICLE*/
+main {
+  width: auto;
+  height: 100vh;
+  margin: 0;
+  background-color: whitesmoke; }
+
+h3, p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; }
+
+h3 {
+  padding-top: 11%;
+  color: #d2a46a; }
+
+p {
+  width: 100%;
+  height: 20%;
+  color: white; }
+
+aside {
+  width: auto;
+  height: 100vh;
+  margin: 0;
+  background-color: whitesmoke; }
+
+h4, p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; }
+
+h4 {
+  padding-top: 11%;
+  color: #d2a46a; }
+
+/*# sourceMappingURL=Stylecss.css.map */
